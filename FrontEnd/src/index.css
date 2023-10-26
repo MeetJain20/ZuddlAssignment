@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Avenir:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Avenir Next", sans-serif;
+  background-image: linear-gradient(var(--dark-blue), var(--light-blue));
+}

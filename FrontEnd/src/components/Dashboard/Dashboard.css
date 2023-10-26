@@ -1,0 +1,7 @@
+@import url("../../App.css");
+
+.dashcontainer{
+    display: flex;
+    flex-direction: row;
+}
+

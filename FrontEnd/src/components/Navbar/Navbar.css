@@ -1,0 +1,56 @@
+@import url("../../App.css");
+
+.navcontainer{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.leftside,.rightside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftitem1{
+    padding-left:0.5rem;
+    padding-right: 0.5rem;
+    color: var(--font-navbar);
+}
+.leftitem{
+    padding-left:0.75rem;
+    padding-right: 0.75rem;
+    color: var(--font-navbar);
+    border-left: 0.1px solid var(--font-navbar);
+}
+
+.leftsidebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--font-navbar);
+}
+
+.titlename{
+    color: var(--font-navbar);
+    font-weight:700;
+    font-size: 1.5rem;
+    padding-right: 0.75rem;
+}
+.icon{
+    font-size: 0.75rem;
+}
+.iconname{
+    font-size:0.85rem;
+    padding-left: 0.75rem;
+}
+.rightmenu{
+    padding-left: 0.75rem;
+    color: var(--font-navbar);
+    text-decoration: underline;
+}
+.fa-ellipsis{
+    color: var(--font-navbar);
+}

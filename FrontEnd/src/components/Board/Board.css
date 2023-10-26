@@ -1,0 +1,15 @@
+@import url("../../App.css");
+
+.boardbox{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--box-background);
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.boxhead{
+    font-size:1rem;
+    font-weight: 700;
+}
