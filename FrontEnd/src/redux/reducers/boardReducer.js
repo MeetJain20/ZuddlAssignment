@@ -43,34 +43,6 @@ const boardReducer = (state = initialState, action) => {
                     }
                     : board
             );
-        case 'INCREMENT_LIKE':
-            const { boardId: incrementBoardId, postId: incrementPostId } = action.payload;
-            return state.map((board) =>
-                board.boardid === incrementBoardId
-                    ? {
-                        ...board,
-                        posts: board.posts.map((post) =>
-                            post.id === incrementPostId
-                                ? { ...post, likecount: post.likecount + 1 }
-                                : post
-                        ),
-                    }
-                    : board
-            );
-        case 'DECREMENT_LIKE':
-            const { boardId: decrementBoardId, postId: decrementPostId } = action.payload;
-            return state.map((board) =>
-                board.boardid === decrementBoardId
-                    ? {
-                        ...board,
-                        posts: board.posts.map((post) =>
-                            post.id === decrementPostId
-                                ? { ...post, likecount: Math.max(0, post.likecount - 1) }
-                                : post
-                        ),
-                    }
-                    : board
-            );
         default:
             return state;
     }

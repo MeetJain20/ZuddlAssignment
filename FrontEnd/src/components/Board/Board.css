@@ -7,9 +7,17 @@
     margin: 0.5rem;
     border-radius: 5px;
     padding: 10px 15px;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 
 .boxhead{
     font-size:1rem;
     font-weight: 700;
+    margin-bottom: 1rem;
+}
+.postscard{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }

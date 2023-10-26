@@ -1,53 +1,51 @@
 const BoardsDetail = [
     {
         boardid: 1,
-        title: "First Board",
-        color: "violet",
-        posts: [
-            {
-                id: 1,
-                title: "first Post",
-                description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique a tenetur harum suscipit atque saepe explicabo! Perferendis fugiat, ex corrupti numquam voluptatem eos nam qui eius alias ut obcaecati, a fugit aperiam sint repellendus?",
-                img: "https://thumbs.dreamstime.com/b/spring-nature-scene-beautiful-landscape-tranquil-background-sunlight-scenic-beauty-meadow-backdrop-sunshine-green-grass-149811995.jpg",
-                likecount: 0,
-                date: "25 July",
-                bookmarked: false,
-            },
-            {
-                id: 2,
-                title: "Second Post",
-                description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aliquam ipsum id beatae. Quasi asperiores voluptatem, quod aperiam, soluta laboriosam pariatur molestiae dolor voluptates atque aliquam tempora culpa at magni!",
-                img: "https://thumbs.dreamstime.com/b/spring-nature-scene-beautiful-landscape-tranquil-background-sunlight-scenic-beauty-meadow-backdrop-sunshine-green-grass-149811995.jpg",
-                likecount: 0,
-                date: "26 July",
-                bookmarked: false,
-            },
-        ],
+        title: "resources",
+        description: "Hello World",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDOB7zD9KLsgylGhDd8be6-Ejbsdy6WtBGw&usqp=CAU",
+        date: "26 October"
+
     },
     {
         boardid: 2,
-        title: "Second Board",
-        color: "yellow",
-        posts: [
-            {
-                id: 1,
-                title: "First Post of second board",
-                description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est autem, aliquid inventore hic quae ipsa a aut molestiae error nulla numquam iusto, nihil exercitationem quidem reiciendis quam, eveniet odio? Fugit blanditiis placeat, praesentium labore qui soluta libero aperiam! Nisi.",
-                img: "https://thumbs.dreamstime.com/b/spring-nature-scene-beautiful-landscape-tranquil-background-sunlight-scenic-beauty-meadow-backdrop-sunshine-green-grass-149811995.jpg",
-                likecount: 0,
-                date: "27 July",
-                bookmarked: false,
-            },
-            {
-                id: 2,
-                title: "Second Post of second board",
-                description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, distinctio dignissimos itaque unde, similique saepe sunt perferendis pariatur harum nulla sint quasi beatae molestiae praesentium ut officia voluptatum odit! Repellat culpa quis saepe autem?",
-                img: "https://thumbs.dreamstime.com/b/spring-nature-scene-beautiful-landscape-tranquil-background-sunlight-scenic-beauty-meadow-backdrop-sunshine-green-grass-149811995.jpg",
-                likecount: 0,
-                date: "28 July",
-                bookmarked: false,
-            },
-        ],
+        title: "resources",
+        description: "Here the resources box",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqMfs7Y1e7-AhfW6yhn4G8pH8oNvJk18or3g&usqp=CAU",
+        date: "25 October"
+    },
+    {
+        boardid: 3,
+        title: "todo",
+        description: "To Do Box",
+        date: "26 October"
+    },
+    {
+        boardid: 4,
+        title: "todo",
+        description: "To Do with Image",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCNdcLSMGARC8WyBIK2xsCqk7TsigT0J7Ig&usqp=CAU",
+        date: "26 October"
+    },
+    {
+        boardid: 5,
+        title: "doing",
+        description: "Doing Box",
+        date: "26 October"
+    },
+    {
+        boardid: 6,
+        title: "doing",
+        description: "Hello World",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDOB7zD9KLsgylGhDd8be6-Ejbsdy6WtBGw&usqp=CAU",
+        date: "26 October"
+    },
+    {
+        boardid: 7,
+        title: "done",
+        description: "Done Box",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDOB7zD9KLsgylGhDd8be6-Ejbsdy6WtBGw&usqp=CAU",
+        date: "26 October"
     },
 ];
 
