@@ -28,8 +28,9 @@ Follow these steps to set up and run the Digital Wall project on your local mach
 ## If users can comment on tasks
 
 1. We can add a comment array for each posts in the array.
-2. Thus can make an api call for displaying thode comment for each individual post.
+2. Thus can make an api call for displaying those comment for each individual post.
 
 ## How will you do error handling?
 
-1. I have simply use try and catch block for error handling but we can also use error boundaries
+1. I have simply use try and catch block for error handling but we can also use error boundaries.
+2. 
