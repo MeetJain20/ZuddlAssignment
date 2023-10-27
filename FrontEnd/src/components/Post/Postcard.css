@@ -5,6 +5,7 @@
     background-color: var(--font-navbar);
     border-radius: 3px;
     box-shadow: 0 0 5px rgb(0,0,0,0.15);
+    position: relative;
 }
 .postimggg{
     border-radius: 3px;
@@ -12,14 +13,31 @@
     height: 175px;
     object-fit: fill;
 }
+
+.editpostdetails {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    background-color: var(--box-background);
+    border-radius: 2px;
+    opacity: 0.3;
+}
+
 .postdesc{
     padding: 0px 12px;
     font-size: 1rem;
     font-weight: 500;
     margin-top: 10px;
 }
+.fa-clock{
+    margin-right: 0.35rem;
+}
 .postdate{
-    padding: 0px 15px;
+    padding: 0px 13px;
     color: var(--text-muted);
     font-size: 0.75rem;
     font-weight: 400;
@@ -35,4 +53,33 @@
     color: var(--button-text);
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+.functionality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    width: 30%;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    z-index: 998;
+}
+
+.editbutton,
+.deletebutton {
+  display: flex;
+  flex-direction: row;
+  margin: 0.15rem;
+  cursor: pointer;
+}
+
+.editicon,
+.deleteicon {
+  margin-right: 0.5rem;
 }

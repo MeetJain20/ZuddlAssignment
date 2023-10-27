@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./Board.css";
 import { useSelector } from 'react-redux';
 import Postcard from '../Post/Postcard';
+import Addpostcard from '../Post/Addpostcard';
 import Modal from "../ReUsable/Modal";
 
 const Board = (props) => {
@@ -13,7 +14,7 @@ const Board = (props) => {
     const openModal = () => setModalOpen(true);
     const closeModal = () => setModalOpen(false);
 
-    return ( 
+    return (
         <div className="boardbox">
             <div className="boxhead">
                 {title}
@@ -22,7 +23,7 @@ const Board = (props) => {
                 {
                     filteredPosts.map((posts) => {
                         return (
-                            <Postcard description={posts.description} img={posts.img} date={posts.date} />)
+                            <Postcard boardid={posts.boardid} title={posts.title} description={posts.description} img={posts.img} date={posts.date} />)
                     })
                 }
             </div>
@@ -31,6 +32,9 @@ const Board = (props) => {
                     Add New Task...
                 </button>
             </div>
+            <Modal isOpen={modalOpen} onClose={closeModal}>
+                <Addpostcard boardid={0} type="addpost" title={title} closeModal={closeModal} description="" img={null} />
+            </Modal>
         </div>
     )
 }

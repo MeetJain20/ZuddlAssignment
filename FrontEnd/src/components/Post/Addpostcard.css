@@ -1,0 +1,81 @@
+@import url("../../App.css");
+
+.addpostcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleofpost,.descofpost {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 2rem;
+    color: #393939;
+}
+  
+.titleforpost,.descforpost {
+    margin-top: 0.5rem;
+}
+
+.descinputpost {
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 5px;
+    width: 95%;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+.addimagebox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.addyourimage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid var(--text-muted);
+    border-radius: 4px;
+    margin-top: 2rem;
+    width: 35%;
+    color: var(--logo-color);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .addPict {
+    display: none;
+  }
+
+  .tempimg1 {
+    height: 50px;
+    width: 50px;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+  }
+
+  .addpostbuttonn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .addpostbuttonnew {
+    border: none;
+    padding: 10px 14px 10px 14px;
+    color: var(--font-navbar);
+    font-weight: 600;
+    font-size: 16px;
+    background-color: var(--add-post);
+    margin-top: 2.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .addpostbuttonnew:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+  
