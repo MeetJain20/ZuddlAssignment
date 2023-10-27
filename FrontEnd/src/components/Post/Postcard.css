@@ -1,12 +1,5 @@
 @import url("../../App.css");
 
-.postcontainer{
-    /* padding: 10px 15px; */
-    background-color: var(--font-navbar);
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgb(0,0,0,0.15);
-    position: relative;
-}
 .postimggg{
     border-radius: 3px;
     width: 100%;

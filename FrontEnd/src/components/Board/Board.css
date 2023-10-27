@@ -21,3 +21,8 @@
     flex-direction: column;
     gap: 10px;
 }
+.postcarrdcsss{
+    background-color: var(--font-navbar);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.15);
+}
